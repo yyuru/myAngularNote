@@ -43,10 +43,19 @@ var app = angular.module('app',[]);
 //then you can add in module,like['ngAnimate']
 
 app.controller('myCtrl',function(){
+    //write you bussiness logic here
 })
 ```
 
+### Module Loading and Dependencies
 
+1.配置代码块：在Provider和配置阶段执行
+
+```
+angular.module('myModule',[])
+    .config(function(){
+    })
+```
 
 
 
