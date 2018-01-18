@@ -8,7 +8,7 @@
 
 ### Create a module:
 
-`angular.module(app,[]); `
+`angular.module(app,[]);`
 
 上述例子中数组\[ \]里是App所依赖的模块的集合，如果app没有任何依赖，那我们就使用空的数组，如\[ \].
 
@@ -16,7 +16,11 @@
 
 `angular.module('app',['app.auth','app.dashboard']);`
 
+### Referencing a module:
 
+```
+angular.module('app');
+```
 
 
 
