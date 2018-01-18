@@ -65,8 +65,18 @@ angular.module('myModule',[])
 angular.module('myModule',[])
     .run(function(injectables){
         //here you can only inject instances in to config blocks
+        //run中可以注入实例和常量
     })
 ```
+
+|  config\(\)和run\(\)的注入区别 |
+| :--- |
+
+
+| 服务/阶段 | provider | factory | service | value | constant |
+| :--- | :--- | :--- | :--- | :--- | :--- |
+| config阶段 | Yes | No | No | No | Yes |
+| run 阶段 | Yes | Yes | Yes | Yes | Yes |
 
 
 
