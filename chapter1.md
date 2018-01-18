@@ -53,7 +53,17 @@ app.controller('myCtrl',function(){
 
 ```
 angular.module('myModule',[])
-    .config(function(){
+    .config(function(injectables){
+        //here you can only inject providers in to config blocks
+    })
+```
+
+2.运行代码块：在注入器被创建并且被用来启动应用后执行
+
+```
+angular.module('myModule',[])
+    .run(function(injectables){
+        //here you can only inject instances in to config blocks
     })
 ```
 
