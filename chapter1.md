@@ -22,5 +22,31 @@
 angular.module('app');
 ```
 
+## Section 4.2:
+
+### Why to use Modules
+
+大多数应用都有一个主函数将应用的不同部分进行捆绑，实例化。
+
+Angular应用没有主函数。
+
+但是在AngularJS中声明的过程是易于理解的，并且可以将代码打包成可复用的模块。
+
+模块可以在任意顺序下被加载，因为模块是延迟执行的。
+
+### Declare a module
+
+```
+var app = angular.module('app',[]);
+//Empty array is list of modules app is depends on
+//if there are ang required dependancies,
+//then you can add in module,like['ngAnimate']
+
+app.controller('myCtrl',function(){
+})
+```
+
+
+
 
 
