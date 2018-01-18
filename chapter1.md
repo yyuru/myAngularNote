@@ -55,6 +55,7 @@ app.controller('myCtrl',function(){
 angular.module('myModule',[])
     .config(function(injectables){
         //here you can only inject providers in to config blocks
+        //config中只可以注入Provider和常量
     })
 ```
 
