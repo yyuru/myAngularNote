@@ -52,7 +52,7 @@ angular.module('myApp',[])
 
 ```
 <div ng-app='myApp'>
-    
+    <hello-world name='Jhon'></hello-world>
 </div>
 ```
 
