@@ -15,5 +15,17 @@
 
 ## Section 5.1:Basic Components and LifeCycle Hooks
 
+### What is a component?
+
+* 组件是基础化的指令，但是配置更简单，并适合组件化的架构（Angular2的精髓）。我们可以把组件看作是一个微件（widget）：可以在web应用不同地方复用的代码块。
+
+### Component
+
+```
+angular.module('myApp',[])
+    .component('helloWorld',{
+    })
+```
+
 
 
