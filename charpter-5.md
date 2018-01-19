@@ -24,6 +24,7 @@
 ```
 angular.module('myApp',[])
     .component('helloWorld',{
+        template:'<span>Hello World!</span>'
     })
 ```
 
