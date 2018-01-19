@@ -43,7 +43,7 @@ angular.module('myApp',[])
 ```
 angular.module('myApp',[])
     .component("helloWorld",{
-    
+        template:'<span>Hello {{$ctrl.name}}</span>',
     })
 ```
 
