@@ -36,5 +36,16 @@ angular.module('myApp',[])
 </div>
 ```
 
+### Using External data in component:
+
+我们可以添加一个参数，给我们的组件传递一个name，使用方法如下：
+
+```
+angular.module('myApp',[])
+    .component("helloWorld",{
+    
+    })
+```
+
 
 
