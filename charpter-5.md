@@ -56,5 +56,63 @@ angular.module('myApp',[])
 </div>
 ```
 
+### Using controllers in components
+
+让我们看一下如果添加控制器
+
+```
+angular.module('myApp',[])
+    .component('helloWorld',{
+    })
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
