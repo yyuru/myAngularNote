@@ -48,5 +48,13 @@ angular.module('myApp',[])
     })
 ```
 
+### Make up
+
+```
+<div ng-app='myApp'>
+    
+</div>
+```
+
 
 
