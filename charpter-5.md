@@ -87,5 +87,51 @@ angular.module("myApp",[])
     })
 ```
 
+在以上的组件中，页面将渲染出“Hello John,I'm MacJhon”.
+
+> 要注意的是$ctrl是controllerAs的默认值，如果实现没有指定的话
+
+### Using "require" as an Object
+
+在某些情况下，你也许需要从某些父组件中获取数据到你的组件中。
+
+我们可以通过声明该组件require某父组件来实现，require让我们可以引用被需求模块的控制器中的数据，并在我们的控制器中使用，如下所示：
+
+> 要注意的是，被require的controller仅仅在$onInit钩子函数声明后有保证地准备好
+
+```
+angular.module('myApp',[])
+    .component('helloWorld',{
+        template:"<span>Hello {{$ctrl.name}},I'm {{$ctrl.myName}}</span>",
+        bindings:{name:'@'},
+        require:{
+            parent:'^parentComponent'
+        },
+        controller:function(){
+            //here this.parent might not be initiated yet
+            this.$onInit=function(){
+                //after $onInit,use this.parent to access required controller
+                this.parent.foo();
+            }
+        }
+    })
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
