@@ -28,5 +28,13 @@ angular.module('myApp',[])
     })
 ```
 
+### Make up
+
+```
+<div ng-app='myApp'>
+    <hello-world></hello world>
+</div>
+```
+
 
 
