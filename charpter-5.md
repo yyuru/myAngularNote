@@ -8,10 +8,10 @@
 | & | 当组件需要向父作用域传递信息时作为回调函数 |
 | LifeCyle Hooks | Details |
 | $onInit | 在一个元素上所有控制器被构造完成后，遍历每一个控制器，初始化其中的绑定数据。适合存放控制器的赋值代码 |
-| $onChanges\(changesObj\) | 在单项绑定数据更新时调用。changesObj是一个哈希表，其关键字是属性值被改变的属性的名字，值是一个数组，格式为{currentValue,previousValue,isFirstChange\(\)} |
-| $onDestory\(\) |  |
-| $postLink\(\) |  |
-| $doCheck\(\) |  |
+| $onChanges\(changesObj\) | 在单项绑定数据\(父组件向子组件传递的数据\)更新时调用。changesObj是一个哈希表，其关键字是属性值被改变的属性的名字，值是一个数组，格式为{currentValue,previousValue,isFirstChange\(\)} |
+| $onDestory\(\) | 在一个控制的作用域被销毁是调用。利用此钩子函数，释放外部资源，监视器以及事件处理器。 |
+| $postLink\(\) | 在一个元素与其子元素被link后调用，这个钩子函数与Angular 2中的ngAfterViewInit 和ngAfterContentInit 钩子函数 类似 |
+| $doCheck\(\) | 在每一次digest circle 时调用。提供了对changes进行监测并实施行为的机会。任何你希望对changes进行相应的行为都需要在此钩子函数中进行唤醒，并且在$onChanges被调用的时候，调用此函数没有任何作用！ |
 
 
 
