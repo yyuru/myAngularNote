@@ -80,37 +80,13 @@ angular.module("myApp",[])
         bindings:{name:'@'},
         controlller:function(){
             this.$onInit=function(){
+                this.myName='Mac'+THis
+
             }
-            this.myName='Mac'+THis
+            
         }
     })
 ```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
