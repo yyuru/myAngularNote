@@ -13,5 +13,7 @@
 | $postLink\(\) | 在一个元素与其子元素被link后调用，这个钩子函数与Angular 2中的ngAfterViewInit 和ngAfterContentInit 钩子函数 类似 |
 | $doCheck\(\) | 在每一次digest circle 时调用。提供了对changes进行监测并实施行为的机会。任何你希望对changes进行相应的行为都需要在此钩子函数中进行唤醒，并且在$onChanges被调用的时候，调用此函数没有任何作用！ |
 
+## Section 5.1:Basic Components and LifeCycle Hooks
+
 
 
