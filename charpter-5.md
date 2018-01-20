@@ -117,7 +117,35 @@ angular.module('myApp',[])
     })
 ```
 
+但是，谨记，该方法在父组件与子组件之间形成了高度的耦合
 
+## Section 5.2:Components in angular JS
+
+angularjs 中的组件可以通过一个自定义指令来可视化\(&lt;html&gt;this in an HTML directive,and something like this will be a custom directive\).一个组件包括视图和控制器。控制器包含与用户可见的视图绑定的业务逻辑。组件和angular指令是不同的，因为它包含更少的配置。一个Angular组件可以如下定义：
+
+```
+angular.module('myApp',[]).component('customer',{});
+```
+
+组件在angular模块中定义。其包含两个参数，其一是该组件的名称，其二是一个对象，包含键值对，其中定义了视图和控制器。
+
+```
+angular.module('myApp',[]).component('customer',{
+    templateUrl:'customer.html',
+    controller:customerCtrl,
+    controllerAs:"cust"
+})
+```
+
+"myApp"是我们构建的App的名称，customer是我们组件的名称。现在为了调用它，我们在主页面中这样使用它：
+
+```
+<customer></customer>
+```
+
+现在，这个指令将会被你所定义的视图和控制器中的业务逻辑所代替，
+
+> 记住，组件使用一个对象作为第二个参数，而指令使用一个工厂函数作为参数
 
 
 
