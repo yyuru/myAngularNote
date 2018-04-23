@@ -105,7 +105,7 @@ myApp.controller("myController",[$scope,function($scope){
 ### 1.AngularJS项目架构目录
 app/  &nbsp;&nbsp;&nbsp;&nbsp; ->根目录
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assets/&nbsp;&nbsp;&nbsp;&nbsp;->静态文件
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assets/&nbsp;&nbsp;&nbsp;&nbsp;->静态文件
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;css/&nbsp;&nbsp;&nbsp;&nbsp;->css文件
 
 
 ### 2.AngularJS项目起步
