@@ -78,9 +78,7 @@ AngularJS路由功能是一个纯前端的解决方案，需要提前对指定�
 
 #### 3\).指令
 
-指令就是一些附加在HTML元素上的自定义标记（例如：属性，元素，或css类），它告诉AngularJS的**HTML编译器**\([`$compile`](http://www.angularjs.net.cn/tutorial/api/ng.$compile)\) 在元素上附加某些指定的行为，甚至操作DOM、改变DOM元素，以及它的各级子节点。
-
-Angular内置了一整套指令，如`ngBind`,`ngModel`, 和`ngView`。 就像你可以创建控制器和服务那样，你也可以创建自己的指令来让Angular使用。 当Angular[启动器](http://www.angularjs.net.cn/tutorial/guide/bootstrap)引导你的应用程序时，[HTML编译器](http://www.angularjs.net.cn/tutorial/guide/compiler)就会遍历整个DOM，以匹配DOM元素里的指令。
+指令就是一些附加在HTML元素上的自定义标记（属性，元素，或css类），它告诉AngularJS的**HTML编译器**\([`$compile`](http://www.angularjs.net.cn/tutorial/api/ng.$compile)\) 在元素上附加某些指定的行为，甚至操作DOM、改变DOM元素，以及它的各级子节点。
 
 #### 4\).服务
 
