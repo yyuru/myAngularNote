@@ -115,8 +115,15 @@ app/  &nbsp;&nbsp;&nbsp;&nbsp; ->根目录
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;filter.js&nbsp;&nbsp;&nbsp;&nbsp;->自定义filter
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;directive.js&nbsp;&nbsp;&nbsp;&nbsp;->自定义指令
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;views/&nbsp;&nbsp;&nbsp;&nbsp;->视图文件
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view1/&nbsp;&nbsp;&nbsp;&nbsp;->
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view2/&nbsp;&nbsp;&nbsp;&nbsp;->
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view1/&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view1.html&nbsp;&nbsp;&nbsp;&nbsp;->视图页面
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view1Controller.js&nbsp;&nbsp;&nbsp;&nbsp;->视图控制器
+
+
+
+
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;view2/&nbsp;&nbsp;&nbsp;&nbsp;
 
 
 
@@ -213,6 +220,7 @@ app/  &nbsp;&nbsp;&nbsp;&nbsp; ->根目录
 
 
 ### 2.AngularJS项目起步
+
 
 
 
