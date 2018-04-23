@@ -32,6 +32,12 @@ AngularJS注入方式：
 var myapp=angular.module('app',["依赖的模块"]);
 ```
 
+$inject属性注入:
+
+```
+myapp.$inject=["依赖的模块"];
+```
+
 #### 4\).双向数据绑定
 
 ### 4.核心功能模块
