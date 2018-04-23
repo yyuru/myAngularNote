@@ -22,7 +22,6 @@ Angular:基于**TypeScript**的用于构建Web应用的**开发平台。**
 ![](/assets/mvvm.png)
 
 #### 2\).模块化
-
 #### 3\).依赖注入
 
 依赖注入（Dependency Injection，DI）是一种软件设计模式，在这种模式下，一个或更多的依赖（或服务）被注入（或者通过引用传递）到一个独立的对象中，然后成为了该对象的一部分。
@@ -104,7 +103,7 @@ myApp.controller("myController",[$scope,function($scope){
 # 二.项目开始与架构
 
 ### 1.AngularJS项目架构目录
-
+app/ ->根目录
 ### 2.AngularJS项目起步
 
 
