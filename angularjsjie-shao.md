@@ -107,6 +107,8 @@ app/  &nbsp;&nbsp;&nbsp;&nbsp; ->根目录
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assets/&nbsp;&nbsp;&nbsp;&nbsp;->静态文件
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;css/&nbsp;&nbsp;&nbsp;&nbsp;->css文件
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;img/&nbsp;&nbsp;&nbsp;&nbsp;->图片文件
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;assets/&nbsp;&nbsp;&nbsp;&nbsp;->静态文件
+
 
 
 
