@@ -65,6 +65,16 @@ AngularJS路由功能是一个纯前端的解决方案，需要提前对指定�
 
 过滤器用来格式化表达式中的值。过滤器可以使用一个管道字符（\|）添加到表达式和指令中。
 
+
+```
+
+```
+
+<div ng-app="myApp" ng-controller="personCtrl">
+
+<p>姓名为 {{ lastName | uppercase }}</p>
+
+</div>
 #### 3\).指令
 
 指令就是一些附加在HTML元素上的自定义标记（例如：属性，元素，或css类），它告诉AngularJS的**HTML编译器**\([`$compile`](http://www.angularjs.net.cn/tutorial/api/ng.$compile)\) 在元素上附加某些指定的行为，甚至操作DOM、改变DOM元素，以及它的各级子节点。
