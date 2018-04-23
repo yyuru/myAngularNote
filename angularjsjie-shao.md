@@ -94,7 +94,7 @@ AngularJS路由功能是一个纯前端的解决方案，需要提前对指定�
 
 ```
 var myApp=angular.module('myApp',[]);
-myApp.controller("myController",[$scope,function(){
+myApp.controller("myController",[$scope,function($scope){
     
 }])
 ```
