@@ -105,8 +105,8 @@ myApp.controller("myController",[$scope,function($scope){
 
 ### 1.AngularJS项目架构目录
 app/                --> 根目录
-       css/              --> css files
-        app.css         --> default stylesheet
+       css/              --> css 文件
+        app.css         
       img/              --> image files
       index.html        --> app layout file (the main html template file of the app)
       index-async.html  --> just like index.html, but loads js files asynchronously
