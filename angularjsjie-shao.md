@@ -127,3 +127,5 @@ app/  &nbsp;&nbsp;&nbsp;&nbsp; ->根目录
 
 1).引入angular.js
 2).定义ng-app(angularjs编译的范围)
+3).添加控制器
+等等。。
