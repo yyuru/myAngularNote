@@ -126,4 +126,4 @@ app/  &nbsp;&nbsp;&nbsp;&nbsp; ->根目录
 ### 2.AngularJS项目起步
 
 1).引入angular.js
-
+2).定义ng-app(angularjs编译的范围)
