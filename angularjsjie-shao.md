@@ -59,11 +59,7 @@ myapp.$inject=["依赖的模块"];
 
 #### 1\).路由
 
-AngularJS路由功能是一个纯前端的解决方案，需要提前对指定的\(ng-app\)，定义路由规则\(routeProvider\)，然后通过不同的URL，告诉\(ng-app\)加载哪个页面\(HTML\)，再渲染到\(ng-app\)视图\(ng-view\)中。
-
-AngularJS的前端路由，虽然URL输入不一样，页面展示不一样，其实完成的单页\(ng-app\)视图\(ng-view\)的局部刷新。
-
-无刷新的视图切换。
+AngularJS路由功能是一个纯前端的解决方案，需要提前对指定的\(ng-app\)，定义路由规则\(routeProvider\)，然后通过不同的URL，告诉\(ng-app\)加载哪个页面\(HTML\)，再渲染到\(ng-app\)视图\(ng-view\)中，实现无刷新的视图切换。
 
 #### 2\).Filter
 
