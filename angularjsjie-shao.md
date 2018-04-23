@@ -103,7 +103,7 @@ myApp.controller("myController",[$scope,function($scope){
 # 二.项目开始与架构
 
 ### 1.AngularJS项目架构目录
-app/   ->根目录
+app/  &nbsp;&nbsp;&nbsp;&nbsp; ->根目录
 ### 2.AngularJS项目起步
 
 
