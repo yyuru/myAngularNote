@@ -26,7 +26,11 @@ Angular:基于**TypeScript**的用于构建Web应用的**开发平台。**
 
 AngularJS注入方式：
 
+数组注入
 
+```
+var myapp=angular.module('app',["依赖的模块"]);
+```
 
 #### 4\).双向数据绑定
 
