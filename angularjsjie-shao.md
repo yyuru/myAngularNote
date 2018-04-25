@@ -11,7 +11,7 @@ AngularJS诞生于2009年，由Misko Hevery 等人创建，后为Google所收购
 
 ### 2.AngularJS与Angular的区别
 
-AngularJS:前端框架。
+AngularJS:前端js框架。
 
 Angular:基于**TypeScript**的用于构建Web应用的**开发平台。**
 
@@ -54,7 +54,7 @@ myapp.$inject=["依赖的模块"];
 
 3.watcher会对模型进行检测，如果模型发生了变化关联到该watcher的回调函数就会被调用来更新view
 
-### 4.核心功能模块
+### 4.核心功能组件
 
 #### 1\).路由
 
